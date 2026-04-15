@@ -1,0 +1,30 @@
+import java.util.HashMap;
+
+public class hashmap {
+    public static boolean pairOfTwoSum(int[] arr, int target){
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for(int i = 0 ; i < arr.length; i++){
+
+            int complement = target - arr[i];
+
+            if(map.containsKey(complement)){
+                return true;
+            }
+            map.put(arr[i], i);
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+        boolean res = pairOfTwoSum(nums, 9);
+        if(res){
+            System.out.println("Sum of pair exists");
+        }else{
+            System.out.println("Sums of pair does not exists");
+        }
+
+    }
+}
