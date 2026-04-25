@@ -1,24 +1,39 @@
-# Data Structures and Algorithms
+🚀 Data Structures and Algorithms (Java)
 
-This repository contains my practice of Data Structures and Algorithms using Java.
+This repository documents my journey of learning and practicing Data Structures and Algorithms using Java.
+It reflects my consistent effort to strengthen problem-solving skills and build a strong foundation for technical interviews.
 
-## Topics
+📚 Topics Covered
+Arrays
+Two Pointer Technique
+HashMap
+(More topics will be added as I progress)
 
-* Arrays
-* Two Pointer
-* HashMap
-* More coming soon....
+🎯 Goal
 
-## Goal
+To develop strong problem-solving abilities and become confident in tackling coding interview questions through structured practice and continuous improvement.
 
-To improve problem-solving skills and prepare for technical interviews.
+⚙️ Approach
 
-## Approach
+I follow a simple but effective strategy:
 
-* Start with brute force
-* Optimize the solution
-* Write clean code
+Start with a brute-force solution to understand the problem
+Gradually optimize for better time and space complexity
+Focus on writing clean, readable, and maintainable code
 
-## Language
-
+💻 Language Used
 Java
+
+📈 Progress Mindset
+
+This repository is not about perfection—it's about progress.
+Every problem solved here is one step closer to clarity, speed, and confidence.
+
+👩‍💻 Author
+Apeksha More
+GitHub: @apekshamore175
+
+⭐ Future Plans
+Add more DSA topics (Linked List, Stack, Queue, Trees, Graphs)
+Include optimized solutions with explanations
+Track consistency and improvement over time
