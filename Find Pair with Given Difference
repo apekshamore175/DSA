@@ -1,0 +1,32 @@
+import java.util.HashMap;
+
+public class hashmap {
+
+    public static int[] pairOfDifference(int[] arr, int target){
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for(int i = 0 ; i < arr.length; i++){
+            int x = arr[i];
+
+            if(map.containsKey( x + target)){
+                return new int[] {map.get(x + target), i};
+            }
+            
+            if (map.containsKey(x - target)) {
+                return new int[] { map.get(x - target), i };
+            }
+
+            map.put(x, i);
+        }
+        return new int[]{-1, -1};
+    }
+
+    public static void main(String[] args) {
+        int[] array = { 5, 20, 3, 2, 50, 80 };
+        int target = 78;
+
+        int[] result = pairOfDifference(array, target);
+
+        System.out.println(result[0] + ", " + result[1]);
+    }
+}

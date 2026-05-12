@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Practice {
+
+    public static int buysellStock(int[] arr){
+        int minPrice = arr[0];
+        int maxProfit = 0;
+
+        for(int i = 1; i < arr.length; i++){
+            minPrice = Math.min(arr[i], minPrice);
+            int Profit = arr[i] - minPrice;
+
+            maxProfit = Math.max(Profit, maxProfit);
+        }
+
+        return maxProfit;
+    }
+    public static void main(String[] args) {
+
+        int[] price = {7, 1, 5, 3, 6, 4};
+        int resultStock = buysellStock(price);
+        System.out.println("best time is : " + resultStock);
+
+    }
+}
