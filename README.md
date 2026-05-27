@@ -1,171 +1,147 @@
-# Array Problems – DSA Practice 🚀
+# 📘 DSA Practice Repository – Arrays & Strings
 
-Welcome to the **Array Problems** repository.
-This repository contains important array-based coding problems frequently asked in:
-
-* Coding Interviews
-* Placement Preparation
-* Online Assessments
-* Competitive Programming
-
-The purpose of this repository is to strengthen problem-solving skills and build a strong foundation in Data Structures and Algorithms.
+Welcome to my Data Structures and Algorithms (DSA) practice repository 🚀
+This repo contains a structured collection of **Array and String problems** categorized by difficulty level, solved in **Java** (or your preferred language).
 
 ---
 
-# 📂 Folder Structure
+## 🎯 Purpose
 
-```bash id="4gzr4p"
-Array/
-│
-├── Easy Problems/
-├── Medium Problems/
-├── Hard Problems/
-├── README.md
-└── index.html
-```
+This repository is created to:
+
+* Strengthen problem-solving skills in DSA
+* Prepare for coding interviews and placements
+* Practice common patterns like sliding window, hashing, prefix sums, etc.
+* Build strong fundamentals in Arrays and Strings
 
 ---
 
-# 📚 Problems Included
+## 🗂️ Topics Covered
 
-# 🟢 Easy Problems
+### 🟢 Arrays
 
-1. Array Reverse
-2. Concatenation of Array
-3. Contains Duplicate in Array
-4. Duplicate Number
-5. Largest Element in Array
-6. Move Zero in Array
-7. Pair with Given Sum
-8. Palindromic String in Array
-9. Pivot Index
-10. Second Largest Element in an Array
-11. Shuffle the Array
-12. Shuffle String
-13. Sort the People in Array
-14. Two Sum
-15. Count Frequency of Elements
-16. First Non-Repeating Character
-17. Range Sum Query
-18. Running Sum of Array
+#### 🔹 Easy Problems
+
+* Reverse Array
+* Concatenation of Array
+* Contains Duplicate
+* Find Duplicate Number
+* Largest Element in Array
+* Move Zeroes
+* Pair with Given Sum (Two Sum)
+* Palindromic Array
+* Pivot Index
+* Second Largest Element in Array
+* Shuffle the Array
+* Sort the People
+* Two Sum
 
 ---
 
-# 🟡 Medium Problems
+#### 🟡 Medium Problems
 
-1. Best Time to Buy and Sell Stock
-
-2. Kth Largest Element in an Array
-
-3. Kth Smallest Element
-
-4. Maximum Subarray Sum (Kadane’s Algorithm)
-
-f(x)=\max\left(\sum_{i=l}^{r} a_i\right)
-
-5. Maximum and Minimum of an Array using Minimum Number of Comparisons
-
-6. Subarray Sum Equals K
-
-\sum_{i=l}^{r} a_i = k
-
-7. Find Pair with Given Difference
+* Best Time to Buy and Sell Stock
+* Kth Largest Element in Array
+* Kth Smallest Element in Array
+* Maximum Subarray Sum (Kadane’s Algorithm)
+* Subarray Sum Equals K
+* Range Sum Query
+* Running Sum of Array
+* Find Pair with Given Difference
 
 ---
 
-# 🔴 Hard Problems
+#### 🔴 Hard Problems
 
-1. Subarray Sums Divisible by K
-
-\left(\sum_{i=l}^{r} a_i\right) \bmod k = 0
+* Subarray Sums Divisible by K
+* Maximum and Minimum of Array (Optimized Comparisons)
 
 ---
 
-# 🧠 Concepts Covered
+### 🟢 Strings
 
-* Arrays
-* HashMap
-* HashSet
-* Prefix Sum
+#### 🔹 Easy Problems
+
+* Basics of Strings
+* Character Frequency Count
+* Palindrome String
+* Reverse String
+* First Non-Repeating Character
+* Valid Palindrome
+
+---
+
+#### 🟡 Medium Problems
+
+* Shuffle String
+* Frequency Count Problems
+
+---
+
+#### 🔴 Hard Problems (Recommended)
+
+* Longest Substring Without Repeating Characters
+* Longest Palindromic Substring
+* Group Anagrams
+* String Compression
+* Minimum Window Substring
+
+---
+
+## 🛠️ Language Used
+
+* Java ☕ (Primary)
+* (You can add more later like Python / C++)
+
+---
+
+## 📚 Concepts Used
+
+* Arrays & Strings manipulation
+* Hashing (HashMap / HashSet)
+* Two Pointers Technique
 * Sliding Window
-* Two Pointer Technique
+* Prefix Sum
 * Sorting
-* Greedy Algorithms
+* Greedy Approach
 * Kadane’s Algorithm
-* Heap / Priority Queue
 
 ---
 
-# ⚡ Time Complexity Cheat Sheet
+## 📈 Goal
 
-| Problem                       | Optimal Complexity |
-| ----------------------------- | ------------------ |
-| Array Reverse                 | O(n)               |
-| Two Sum                       | O(n)               |
-| Contains Duplicate            | O(n)               |
-| Move Zeroes                   | O(n)               |
-| Kadane’s Algorithm            | O(n)               |
-| Best Time to Buy & Sell Stock | O(n)               |
-| Kth Largest Element           | O(n log k)         |
-| Subarray Sum Equals K         | O(n)               |
-| Running Sum of Array          | O(n)               |
+To master DSA step-by-step and become placement-ready by building strong problem-solving intuition instead of memorizing solutions.
 
 ---
 
-# 🛠️ How to Run Java Programs
+## 🚀 How to Use This Repo
 
-## Compile Java File
-
-```bash id="a7pllf"
-javac FileName.java
-```
-
-## Run Java File
-
-```bash id="1z2p4m"
-java FileName
-```
+1. Pick a difficulty level (Easy → Medium → Hard)
+2. Solve problems one by one
+3. Try brute force → then optimize
+4. Compare patterns across problems
+5. Revise regularly
 
 ---
 
-# 🌟 Why Practice Arrays?
+## 🔥 Future Improvements
 
-Arrays are one of the most important topics in DSA because they:
-
-* Build logical thinking
-* Improve coding speed
-* Help understand advanced data structures
-* Teach optimization techniques
-* Form the base of many interview questions
-
----
-
-# 🚀 Future Improvements
-
-* Add optimized solutions
-* Add brute-force approaches
-* Add explanation comments
-* Add dry runs
+* Add Java solutions for all problems
 * Add time & space complexity
-* Add LeetCode/GFG problem links
+* Add explanations + approach notes
+* Add LeetCode / GFG links
 
 ---
 
-# 🎯 Learning Goal
+## 🤝 Contribution / Learning
 
-By solving these problems consistently, you will:
-
-* Improve problem-solving ability
-* Understand coding patterns
-* Write cleaner code
-* Gain interview confidence
-* Build strong DSA fundamentals
+This is a personal learning repository, but suggestions and improvements are always welcome.
 
 ---
 
-# 📌 Keep Practicing
+## ⭐ If this helps you
 
-DSA mastery comes from consistency, not speed.
-Solve problems daily, revise patterns regularly, and focus on understanding the logic behind every solution.
+Give it a star ⭐ and keep grinding. Consistency beats talent in DSA.
 
-> “Small improvements every day become massive results over time.”
+---
+
