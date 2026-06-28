@@ -6,7 +6,10 @@ class Solution {
         do {
             a = nums[a];
             b = nums[nums[b]];
-        } while (a != b);
+        } while (a != b); 
+
+
+
 
         a = nums[0];
         while (a != b) {
