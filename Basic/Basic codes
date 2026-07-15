@@ -1,0 +1,75 @@
+import java.util.Scanner;
+
+public class Code{
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //qus 1
+        // System.out.println("Enter the number");
+        // int num = sc.nextInt();
+        // System.out.println("The enter number is : " + num);
+
+        // //que2
+        // System.out.println("Enter the number");
+        // int num2 = sc.nextInt();
+        // int add = num + num2;
+        // System.out.println("Addition of 2 number is : " + add);
+
+        // //qus3
+        // System.out.println("Enter two floating point number : ");
+        // float flot1 = sc.nextFloat();
+        // float flot2 = sc.nextFloat();
+        // float addflot = flot1 + flot2;
+        // System.out.println(addflot);
+
+        //qus 4
+        // char ch = 'A';
+
+        // int ascii = ch;
+        // System.out.println(ascii);
+
+        // //que 5
+        // System.out.print("Enter divident : ");
+        // int divident = sc.nextInt();
+
+        // System.out.print("Enter divisor : ");
+        // int divisor = sc.nextInt();
+
+        // int quoitent = divident / divisor;
+        // int reminder = divident % divisor;
+        // System.out.println("Quoitent : " + quoitent);
+        // System.out.println("Reminder : " + reminder);
+
+        //qus 6
+        // System.out.print("Enter a value : ");
+        // int a = sc.nextInt(); 
+        // System.out.print("Enter b value : ");
+        // int b = sc.nextInt();
+        // System.out.println("Value of a is : " + a + "\nValue of b is : " + b);
+        // int temp = a;
+        // a = b;
+        // b = temp;
+        // System.out.println("Value of a is : " + a + "\nValue of b is : " + b);
+
+        //qus 7
+        // System.out.println("Enter a number : ");
+        // int num = sc.nextInt();
+
+        // if(num % 2 == 0){
+        //     System.out.println("Number is Even");
+        // }else{
+        //     System.out.println("Number is odd");
+        // }
+
+        //qus 8
+        System.out.println("Enter alphabet : ");
+        char ch = sc.next().charAt(0);
+
+        if(ch == 'a' || ch == 'e' || ch == 'o' || ch == 'i' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
+            System.out.println("Vowels");
+        }else{
+            System.out.println("Consonant");
+        }
+    }
+}
