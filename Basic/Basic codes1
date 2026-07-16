@@ -1,0 +1,164 @@
+import java.util.Scanner;
+
+public class Code{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //qus 1
+        System.out.println("Enter the number");
+        int num = sc.nextInt();
+        System.out.println("The enter number is : " + num);
+
+        //que2
+        System.out.println("Enter the number");
+        int num2 = sc.nextInt();
+        int add = num + num2;
+        System.out.println("Addition of 2 number is : " + add);
+
+        //qus3
+        System.out.println("Enter two floating point number : ");
+        float flot1 = sc.nextFloat();
+        float flot2 = sc.nextFloat();
+        float addflot = flot1 + flot2;
+        System.out.println(addflot);
+
+        //qus 4
+        char ch = 'A';
+
+        int ascii = ch;
+        System.out.println(ascii);
+
+        //que 5
+        System.out.print("Enter divident : ");
+        int divident = sc.nextInt();
+
+        System.out.print("Enter divisor : ");
+        int divisor = sc.nextInt();
+
+        int quoitent = divident / divisor;
+        int reminder = divident % divisor;
+        System.out.println("Quoitent : " + quoitent);
+        System.out.println("Reminder : " + reminder);
+
+        //qus 6
+        System.out.print("Enter a value : ");
+        int a = sc.nextInt(); 
+        System.out.print("Enter b value : ");
+        int b = sc.nextInt();
+        System.out.println("Value of a is : " + a + "\nValue of b is : " + b);
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println("Value of a is : " + a + "\nValue of b is : " + b);
+
+       // qus 7
+        System.out.println("Enter a number : ");
+        int num = sc.nextInt();
+
+        if(num % 2 == 0){
+            System.out.println("Number is Even");
+        }else{
+            System.out.println("Number is odd");
+        }
+
+        //qus 8
+        System.out.println("Enter alphabet : ");
+        char ch = sc.next().charAt(0);
+
+        if(ch == 'a' || ch == 'e' || ch == 'o' || ch == 'i' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
+            System.out.println("Vowels");
+        }else{
+            System.out.println("Consonant");
+        }
+
+//qus 9 
+        int a = 5;
+        int b = 13;
+        int c = 9;
+
+        if(a > b && a > c){
+            System.out.println("A is largest");
+        }else if( b > c){
+            System.out.println("B is largest");
+        }else{
+            System.out.println("C is largest");
+        }
+
+        //que 10
+        value of the constants a, b, c
+        double a = 7.2, b = 5, c = 9;
+
+        // declared the two roots
+        double firstroot, secondroot;
+
+        // determinant (b^2 - 4ac)
+        double det = b * b - 4 * a * c;
+
+        // check if determinant is greater than 0
+        if (det > 0) {
+
+            // two real and distinct roots
+            firstroot = (-b + Math.sqrt(det)) / (2 * a);
+            secondroot = (-b - Math.sqrt(det)) / (2 * a);
+
+            System.out.format(
+                    "First Root = %.2f and Second Root = %.2f",
+                    firstroot, secondroot);
+        }
+
+        // check if determinant is equal to 0
+        else if (det == 0) {
+
+            // two real and equal roots
+            // determinant is equal to 0
+            // so -b + 0 == -b
+            firstroot = secondroot = -b / (2 * a);
+
+            System.out.format(
+                    "First Root = Second Root = %.2f;",
+                    firstroot);
+        }
+
+        // if determinant is less than zero
+        else {
+
+            // roots are complex number and distinct
+            double real = -b / (2 * a);
+
+            double imaginary = Math.sqrt(-det) / (2 * a);
+
+            System.out.printf("First Root = %.2f+%.2fi",
+                    real, imaginary);
+            System.out.printf("\nSecond Root = %.2f-%.2fi",
+                    real, imaginary);
+        }
+
+        //que 11
+        String str = "hello world!";
+
+        int []  freq = new int[256];
+
+        for(int i = 0; i < str.length(); i++){
+            freq[str.charAt(i)]++;
+        }
+
+        for(int i = 0; i < freq.length; i++){
+            if(freq[i] > 0){
+                System.out.println((char) i + ": " + freq[i]);
+            }
+        }
+
+        //que 12 
+        String text = "Hello World !!";
+        System.out.println(text);
+        String result = text.replace(" ", "");
+        System.out.println(result);
+
+        // qus 14
+        String str = "5";
+        if(str == ""){
+            System.out.println("String is null");
+        }else{
+            System.out.println("String is not empty");
+        }
+    }
+}
