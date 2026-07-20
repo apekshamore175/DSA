@@ -44,6 +44,33 @@ public class Code{
         
         return num * factorial(num - 1);
     }
+
+    public static void multiplicationTable(int n){
+        for(int i = 1; i <=10;i++){
+            System.out.println(n * i);
+        }
+    }
+
+    public static void fibonacciSeries(int n){
+        int n1 = 0;
+        int n2 = 1;
+
+        for(int i = 0; i < n ; i++){
+            System.out.println(n1);
+
+            int n3 = n1 + n2;
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+
+    public static int gcdOfNumber(int n1, int n2){
+        if(n2 == 0){
+            return n1;
+        }
+        return gcdOfNumber(n2, n1 % n2);
+    }
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -68,6 +95,18 @@ public class Code{
         //que 5 factorial of number
         int num = sc.nextInt();
         System.out.println(factorial(num));
+
+         // que 6 multiplication table
+        int num = sc.nextInt();
+        multiplicationTable(num);
+
+        //que 7 fibonacci series
+        int num = sc.nextInt();
+        fibonacciSeries(num);
+
+        //que 8 gcd of two number
+
+       System.out.println( gcdOfNumber(60, 36));
 
     }
 }
